@@ -1,0 +1,35 @@
+{
+  "name": "nance-api",
+  "version": "1.0.0",
+  "description": "includes REST and STREAM (Websocket) for client and server.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphabit1/nance-api.git"
+  },
+  "author": "alphabit1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphabit1/nance-api/issues"
+  },
+  "homepage": "https://github.com/alphabit1/nance-api#readme",
+  "dependencies": {
+    "axios": "0.19.2",
+    "axios-cache-adapter": "2.5.0",
+    "ws": "7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
